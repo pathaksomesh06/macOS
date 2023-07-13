@@ -1,2 +1,2 @@
 # macOS
-macOS_videso
+macOS_videos

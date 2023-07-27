@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AcknowledgedDataCollectionPolicy</key>
+			<string>RequiredDataOnly</string>
+			<key>Applications</key>
+			<dict>
+				<key>/Applications/Company Portal.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>IMCP01</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+				<key>/Applications/Microsoft Defender.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>WDAV00</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+				<key>/Applications/Microsoft Edge.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>EDGE01</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+				<key>/Applications/Microsoft Excel.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>XCEL2019</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+				<key>/Applications/Microsoft OneNote.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>ONMC2019</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+				<key>/Applications/Microsoft Outlook.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>OPIM2019</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+				<key>/Applications/Microsoft PowerPoint.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>PPT32019</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+				<key>/Applications/Microsoft Remote Desktop.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>MSRD10</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+				<key>/Applications/Microsoft Teams.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>TEAMS10</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+				<key>/Applications/Microsoft Word.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>MSWD2019</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+				<key>/Applications/OneDrive.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>ONDR18</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+				<key>/Applications/Skype for Business.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>MSFB16</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+				<key>/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app</key>
+				<dict>
+					<key>Application ID</key>
+					<string>MSau04</string>
+					<key>LCID</key>
+					<integer>1033</integer>
+					<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+					<integer>6</integer>
+				</dict>
+			</dict>
+			<key>ChannelName</key>
+			<string>Current</string>
+			<key>DisableInsiderCheckbox</key>
+			<true/>
+			<key>ExtendedLogging</key>
+			<true/>
+			<key>HowToCheck</key>
+			<string>AutomaticCheck</string>
+			<key>IgnoreUIOpenAfterInstall</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft AutoUpdate</string>
+			<key>PayloadIdentifier</key>
+			<string>com.microsoft.autoupdate2.E99BC067-FF17-4A6C-8C47-1CB7D01F1B20</string>
+			<key>PayloadType</key>
+			<string>com.microsoft.autoupdate2</string>
+			<key>PayloadUUID</key>
+			<string>E99BC067-FF17-4A6C-8C47-1CB7D01F1B20</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>UpdateCache</key>
+			<string>https://officecdn.microsoft.com/pr/C1297A47-86C4-4C1F-97FA-950631F94777/OfficeMac/</string>
+			<key>UpdateCheckFrequency</key>
+			<integer>240</integer>
+			<key>UpdateDeadline.DaysBeforeForcedQuit</key>
+			<integer>6</integer>
+			<key>UpdateDeadline.FinalCountDown</key>
+			<integer>60</integer>
+			<key>UpdateDeadline.StartAutomaticUpdates</key>
+			<integer>3</integer>
+			<key>UpdaterOptimization</key>
+			<string>CPU</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Untitled</string>
+	<key>PayloadIdentifier</key>
+	<string>Somess-MacBook-Pro.40837038-5C12-4C4F-A74C-22E151AC0D15</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>40837038-5C12-4C4F-A74C-22E151AC0D15</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

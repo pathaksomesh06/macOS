@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>AutoOpenSafeDownloads</key>
+				<false/>
+				<key>BlockStoragePolicy</key>
+				<integer>2</integer>
+				<key>ShowFullURLInSmartSearchField</key>
+				<true/>
+				<key>ShowOverlayStatusBar</key>
+				<true/>
+				<key>WarnAboutFraudulentWebsites</key>
+				<true/>
+				<key>WebKitPreferences.javaScriptEnabled</key>
+				<true/>
+				<key>WebKitPreferences.privateClickMeasurementEnabled</key>
+				<true/>
+				<key>WebKitPreferences.storageBlockingPolicy</key>
+				<integer>1</integer>
+				<key>WebKitStorageBlockingPolicy</key>
+				<integer>1</integer>
+				<key>safariAllowPopups</key>
+				<false/>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Safari-cis-lvl1</string>
+		<key>PayloadDisplayName</key>
+		<string>Safari-cis-lvl1</string>
+		<key>PayloadIdentifier</key>
+		<string>IRL.51D8404C-297D-4803-A5FB-A16535068D30</string>
+		<key>PayloadOrganization</key>
+		<string>IRL</string>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>50C34AE9-0614-43C9-B14D-D4ADC2ECFCF0</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+	</dict>
+</plist>

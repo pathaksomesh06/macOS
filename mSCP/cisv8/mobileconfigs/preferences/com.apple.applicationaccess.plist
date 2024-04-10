@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allowAccountModification</key>
+	<false/>
+	<key>allowActivityContinuation</key>
+	<false/>
+	<key>allowAirDrop</key>
+	<false/>
+	<key>allowAirPlayIncomingRequests</key>
+	<false/>
+	<key>allowApplePersonalizedAdvertising</key>
+	<false/>
+	<key>allowAssistant</key>
+	<false/>
+	<key>allowCloudAddressBook</key>
+	<false/>
+	<key>allowCloudBookmarks</key>
+	<false/>
+	<key>allowCloudCalendar</key>
+	<false/>
+	<key>allowCloudDesktopAndDocuments</key>
+	<false/>
+	<key>allowCloudDocumentSync</key>
+	<false/>
+	<key>allowCloudFreeform</key>
+	<false/>
+	<key>allowCloudKeychainSync</key>
+	<false/>
+	<key>allowCloudMail</key>
+	<false/>
+	<key>allowCloudNotes</key>
+	<false/>
+	<key>allowCloudPhotoLibrary</key>
+	<false/>
+	<key>allowCloudReminders</key>
+	<false/>
+	<key>allowContentCaching</key>
+	<false/>
+	<key>allowDiagnosticSubmission</key>
+	<false/>
+	<key>allowFindMyDevice</key>
+	<false/>
+	<key>allowFindMyFriends</key>
+	<false/>
+	<key>allowGameCenter</key>
+	<false/>
+	<key>allowPasswordAutoFill</key>
+	<false/>
+	<key>allowPasswordProximityRequests</key>
+	<false/>
+	<key>allowPasswordSharing</key>
+	<false/>
+	<key>forceOnDeviceOnlyDictation</key>
+	<true/>
+</dict>
+</plist>

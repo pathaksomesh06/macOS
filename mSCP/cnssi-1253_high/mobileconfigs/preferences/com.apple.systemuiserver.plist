@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mount-controls</key>
+	<dict>
+		<key>bd</key>
+		<array>
+			<string>read-only</string>
+		</array>
+		<key>blankbd</key>
+		<array>
+			<string>alert</string>
+			<string>eject</string>
+		</array>
+		<key>blankcd</key>
+		<array>
+			<string>alert</string>
+			<string>eject</string>
+		</array>
+		<key>blankdvd</key>
+		<array>
+			<string>alert</string>
+			<string>eject</string>
+		</array>
+		<key>cd</key>
+		<array>
+			<string>read-only</string>
+		</array>
+		<key>disk-image</key>
+		<array>
+			<string>alert</string>
+			<string>eject</string>
+		</array>
+		<key>dvdram</key>
+		<array>
+			<string>alert</string>
+			<string>eject</string>
+		</array>
+		<key>harddisk-external</key>
+		<array>
+			<string>alert</string>
+			<string>eject</string>
+		</array>
+	</dict>
+</dict>
+</plist>

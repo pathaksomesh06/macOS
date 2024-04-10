@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>familyControlsEnabled</key>
+	<true/>
+	<key>pathBlackList</key>
+	<array>
+		<string>/Applications/Calendar.app</string>
+		<string>/Applications/FaceTime.app</string>
+		<string>/Applications/Mail.app</string>
+		<string>/Applications/Messages.app</string>
+		<string>/Users/</string>
+	</array>
+</dict>
+</plist>

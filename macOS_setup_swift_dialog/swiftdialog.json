@@ -1,22 +1,21 @@
 {
-    "title" : "Welcome to IRL!...",
-    "message" : "Your computer setup is underway. \n\nFeel free to step away, this could take 30 minutes or more. \n\nYour computer will restart when it's ready for use",
-    "blurscreen": true,
-    "moveable": false,
-    "ontop": true,
-    "icon" : "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/IRL.png",
-    "centreicon": false,
-    "iconsize" : "400",
-    "listitem" : [
-      {"title" : "FileVault", "icon" : "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/FileVault.png", "status" : "pending", "statustext" : "Checking status..."},
-      {"title" : "Company Portal", "icon" : "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/CompanyPortal.png", "status" : "pending", "statustext" : "Pending"},
-      {"title" : "Microsoft Office", "icon" : "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/office.png", "status" : "pending", "statustext" : "Pending"},
-      {"title" : "Microsoft Edge", "icon" : "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/Edge.png", "status" : "pending", "statustext" : "Pending"},
-      {"title" : "Microsoft VS Code", "icon" : "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/vscode.png", "status" : "pending", "statustext" : "Pending"},
-      {"title" : "Microsoft Remote Desktop", "icon" : "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/RemoteDesktop.png", "status" : "pending", "statustext" : "Pending"},
-      {"title" : "Microsoft Defender", "icon" : "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/Defender.png", "status" : "pending", "statustext" : "Pending"},
-      {"title" : "Microsoft Teams", "icon" : "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/Teams.png", "status" : "pending", "statustext" : "Pending"},
-      {"title" : "Adobe Acrobat Reader", "icon" : "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/Acrobat.png", "status" : "pending", "statustext" : "Pending"}
-    ]
-  }
-  
+  "title": "Welcome to IRL!...",
+  "message": "YWe're enhancing your Mac to make it awesome!. \n\nFeel free to take a break while we handle everything. \n\nIt may take a little while, but we promise it'll be worth the wait",
+  "blurscreen": true,
+  "moveable": false,
+  "ontop": true,
+  "icon": "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/IRL.png",
+  "centreicon": false,
+  "iconsize": "400",
+  "listitem": [
+    {"title": "FileVault", "icon": "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/FileVault.png", "status": "pending", "statustext": "Checking status..."},
+    {"title": "Company Portal", "icon": "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/CompanyPortal.png", "status": "pending", "statustext": "Pending"},
+    {"title": "Microsoft Office", "icon": "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/office.png", "status": "pending", "statustext": "Pending"},
+    {"title": "Microsoft Edge", "icon": "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/Edge.png", "status": "pending", "statustext": "Pending"},
+    {"title": "Microsoft VS Code", "icon": "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/vscode.png", "status": "pending", "statustext": "Pending"},
+    {"title": "Microsoft Remote Desktop", "icon": "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/RemoteDesktop.png", "status": "pending", "statustext": "Pending"},
+    {"title": "Microsoft Defender", "icon": "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/Defender.png", "status": "pending", "statustext": "Pending"},
+    {"title": "Microsoft Teams", "icon": "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/Teams.png", "status": "pending", "statustext": "Pending"},
+    {"title": "Adobe Acrobat Reader", "icon": "/Library/Application Support/Microsoft/IntuneScripts/Swift dialog/icons/Acrobat.png", "status": "pending", "statustext": "Pending"}
+  ]
+}

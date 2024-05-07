@@ -4,7 +4,6 @@
 CustomerId="b1319add-2b65-4e43-b44f-bc0224307dc8"
 SharedKey="dj6PfoU9vEc44BRfBLl89XqtNJ0teptExMWzE/+uGAkOhY+MWOdh0VHf3zrwnnyfM99Q9oRwb0Vcq6rs7XOqrA==y"
 
-
 # Function to create the authorization signature
 function generate_signature() {
     local customerId="$1"
@@ -21,7 +20,6 @@ function generate_signature() {
     
     echo "SharedKey $customerId:$hash"
 }
-
 # Function to send data to Log Analytics
 function send_data() {
     local customerId="$1"
@@ -45,22 +43,30 @@ function send_data() {
          --data "$data"
 }
 
+# Retrieve Intune DeviceID
+ManagedDeviceID=$(security find-certificate -a | awk -F= '/issu/ && /MICROSOFT INTUNE MDM DEVICE CA/ { getline; gsub(/"/, "", $2); print $2}' | head -n 1)
+
 # Main data collection and processing
 ComputerName=$(scutil --get ComputerName)
 DeviceSerialNumber=$(system_profiler SPHardwareDataType | awk '/Serial/ {print $4}')
 
 # Collecting dynamic application data
 Applications="["
-appCount=0
 
+appCount=0  # Initialize application count
 IFS=$'\n'
 for line in $(system_profiler SPApplicationsDataType); do
     if [[ "$line" =~ "Location:" ]]; then
-        appName=$(basename "${line%.*}")  # Extracts only the app name, removing path and .app extension
+        appPath=$(echo "$line" | awk -F": " '{print $2}')
+        appName=$(basename "$appPath" .app)  # Extracts only the app name, removing path and .app extension
     elif [[ "$line" =~ "Version:" ]]; then
-        appVersion=$(echo "$line" | awk -F": " '{print $2}')
-        Applications+="{\"AppName\": \"$appName\", \"AppVersion\": \"$appVersion\", \"ComputerName\": \"$ComputerName\", \"DeviceSerialNumber\": \"$DeviceSerialNumber\"},"
-        ((appCount++))
+        # Parse Info.plist to check for CFBundleIdentifier containing "apple"
+        bundleId=$(defaults read "$appPath/Contents/Info" CFBundleIdentifier 2>/dev/null)
+        if [[ "$bundleId" != *"apple"* ]]; then
+            appVersion=$(echo "$line" | awk -F": " '{print $2}')
+            Applications+="{\"AppName\": \"$appName\", \"AppVersion\": \"$appVersion\", \"ComputerName\": \"$ComputerName\", \"DeviceSerialNumber\": \"$DeviceSerialNumber\", \"ManagedDeviceID\": \"$ManagedDeviceID\"},"
+            ((appCount++))  # Increment application count
+        fi
     fi
 done
 IFS=$' \t\n'
